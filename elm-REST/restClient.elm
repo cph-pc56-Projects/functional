@@ -1,11 +1,10 @@
 import Html exposing (..)
-import Html.App as App
 import Html.Events exposing (..)
 import WebSocket
 
-main : Program Never
+-- main : Program Never
 main =
-  App.program
+  Html.program
     { init = init
     , view = view
     , update = update
