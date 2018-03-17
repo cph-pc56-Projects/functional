@@ -14,6 +14,6 @@ app.ws('/hello', function(websocket, request) {
   
     websocket.on('message', function(message) {
       console.log(`A client sent a message: ${message}`);
-      websocket.send('Hello, world!');
+      websocket.send('Hello, client! Me the server, has received your message! Your are the man!');
     });
   });
