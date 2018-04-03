@@ -1,1 +1,1 @@
-Solution for elm-subscriptions exercise
+Solved
