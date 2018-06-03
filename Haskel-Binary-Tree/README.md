@@ -1,0 +1,3 @@
+# Haskel Binary Tree
+
+Incomplete
